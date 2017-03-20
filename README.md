@@ -4,7 +4,7 @@
 
 The Jupyter notebooks covers introductory topics. The content has been divided in three modules/workshops. 
 
-Module 1 (notebooks 01-05) covers:
+Module/workshop 1 (notebooks 01-05) covers:
 Introduction to Scala, definition of variables and functions, working with collections (Lists, Map, Set, Tuples...) and exercises.
 
 The notebooks related to modules 2 and 3 will be released in coming days.
@@ -16,7 +16,7 @@ A command should like:
 sudo docker run -v /home/daniel/docs/repos/scala-intro.git:/home/jovyan/work -it -p 8888:8888 jupyter/all-spark-notebook start-notebook.sh --NotebookApp.token=''
 ~~~
 
-After that, you only have to type in a browser the url: 
+After that, you only have to type the following url in a browser: 
 ~~~
 http://localhost:8888/
 ~~~
