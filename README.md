@@ -9,18 +9,6 @@ Introduction to Scala, definition of variables and functions, working with colle
 
 The notebooks related to modules 2 and 3 will be released in coming days.
 
-We encourage you to use Docker image: "jupyter/all-spark-notebook" in order to run a local Jupyter instance. 
-
-A command should like:
-~~~
-sudo docker run -v /home/daniel/docs/repos/scala-intro.git:/home/jovyan/work -it -p 8888:8888 jupyter/all-spark-notebook start-notebook.sh --NotebookApp.token=''
-~~~
-
-After that, you only have to type the following url in a browser: 
-~~~
-http://localhost:8888/
-~~~
-
 Any comment is welcomed!
 
 Enjoy it!
